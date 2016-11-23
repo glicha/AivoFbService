@@ -1,0 +1,18 @@
+{
+	"require": {
+		"slim/slim" : "3.5"
+	}
+	
+	  "require":
+	  {
+		"phpclasses/php2wsdl": ">=0.5"
+	  },
+	  "repositories":
+	  [
+		{
+		  "type": "composer",
+		  "url": "https:\/\/www.phpclasses.org\/"
+		}
+	  ]
+
+}
