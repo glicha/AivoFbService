@@ -51,6 +51,7 @@ function RetrieveUserProfile($idFacebook){
 
     return($profile);
 }
+
 if ( !isset( $HTTP_RAW_POST_DATA ) ) $HTTP_RAW_POST_DATA =file_get_contents( 'php://input' );
 $server->service($HTTP_RAW_POST_DATA);
 ?>
